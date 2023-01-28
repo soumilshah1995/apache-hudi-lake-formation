@@ -4,8 +4,32 @@
 * Let's look at how we get fine-grained access to hudi Datalake using AWS Lake formation. In this video, I'll teach you how to restrict intern and analyst access to specific columns by using lake formation.
 
 
-# Step 1: 
-##### Create Hudi Datalake execute Glue notebook that creates a data lakes for you 
+# Video Guide : 
+
+
+#### Note
+* When you create user analyst or intern make sure to add this policy and role 
+```
+Policy Name : AmazonAthenaFullAccess
+Inline Policy : 
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "s3:Put*",
+                "s3:Get*",
+                "s3:List*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::XXXX/*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}
+
+```
 
 
 
