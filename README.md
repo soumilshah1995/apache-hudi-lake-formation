@@ -5,7 +5,8 @@
 #### Assumption for this labs 
 * you already have a HUDI datalake and this labs focuses on lake formation and how to implement column based access for interns and analyst
 
-# Step 1: Create Hudi Datalake execute Glue notebook that creates a data lakes for you 
+# Step 1: 
+##### Create Hudi Datalake execute Glue notebook that creates a data lakes for you 
 
 
 
