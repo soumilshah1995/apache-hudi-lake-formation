@@ -5,7 +5,7 @@
 
 
 # Video Guide : 
-
+ * https://www.youtube.com/watch?v=yPmdCdPT8jo&feature=youtu.be
 
 #### Note
 * When you create user analyst or intern make sure to add this policy and role 
